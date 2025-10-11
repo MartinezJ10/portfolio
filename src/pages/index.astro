@@ -1,0 +1,27 @@
+
+---
+import Base from "../layouts/Base.astro";
+
+import Landing from "../components/Landing.vue";
+import Aboutme from "../components/Aboutme.vue";
+import Portafolio from "../components/Portafolio.vue";
+import Nav from "../components/Nav.vue";
+import Skills from "../components/Skills.vue";
+
+---
+
+<Base>
+
+  <div 
+  class="max-w-7xl justify-center items-center mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col gap-8"
+  >
+  <Nav client:load />
+  <Landing client:load />
+  <Aboutme client:load />
+  <Portafolio client:load />
+  <Skills client:load />
+  
+</div>
+
+
+</Base>

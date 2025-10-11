@@ -1,0 +1,24 @@
+:root {
+  --color-primary: #0053a3; /* deep blue */
+  --color-primary-rgb: 0, 83, 163; /* deep blue */
+  --color-secondary: #5b7ccb; /* soft blue */
+  --color-accent: #ff8961; /* coral/orange */
+  --color-light: #ffbcef; /* pink */
+  --color-bg: #fefae0; /* ivory background */
+  --color-dark: #02040f; /* almost black */
+}
+@import "tailwindcss";
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("../assets/fonts/LeagueSpartan-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
