@@ -1,58 +1,85 @@
 <template>
-  <div
+  <section
     id="projects"
-    class="min-h-screen w-6xl flex flex-col justify-evenly items-center"
+    class="min-h-screen w-full max-w-6xl mx-auto px-6 py-20 flex flex-col items-center gap-16"
   >
-    <div>
-      <h1 class="text-8xl font-light">portafolio</h1>
-    </div>
-    <div class="flex justify-center gap-6 text-white">
-      <div class="flex flex-col">
-        <div
-          class="flex flex-col items-center px-15 py-5 gap-6 rounded-xl"
-          style="background-color: var(--color-secondary)"
-        >
-          <span class="self-start text-3xl">JUDUCA 2025</span>
-          <img class="w-50" src="/img/isotipojuduca1.png" alt="" />
-          <a
-            class="self-end text-2xl decoration-0 cursor-pointer"
-            href="/projects/juduca/"
-            >conocer más</a
-          >
-        </div>
-      </div>
+    <!-- Title -->
+    <h1
+      class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light text-center"
+    >
+      portafolio
+    </h1>
+
+    <!-- Project Cards -->
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full text-white"
+    >
+      <!-- Card 1 -->
       <div
-        class="flex flex-col items-center justify-center px-10 py-5 rounded-xl"
+        class="flex flex-col items-center p-6 sm:p-8 gap-6 rounded-2xl"
+        style="background-color: var(--color-secondary)"
+      >
+        <span class="text-2xl sm:text-3xl self-start">JUDUCA 2025</span>
+        <img
+          src="/img/isotipojuduca1.png"
+          alt="JUDUCA 2025"
+          class="w-40 sm:w-52 object-contain"
+        />
+        <a
+          href="/projects/juduca/"
+          class="self-end text-xl sm:text-2xl underline-offset-4 hover:underline transition"
+        >
+          conocer más
+        </a>
+      </div>
+
+      <!-- Card 2 -->
+      <div
+        class="flex flex-col items-center p-6 sm:p-8 gap-6 rounded-2xl"
         style="background-color: var(--color-accent)"
       >
-        <div class="flex flex-col gap-12 justify-evenly items-center">
-          <span class="self-start text-3xl">Librería Universitaria</span>
-          <img class="w-70" src="/img/libreriaLogo.png" alt="" />
-          <a
-            class="self-end text-2xl decoration-0 cursor-pointer"
-            href="/projects/libreria-universitaria/"
-            >conocer más</a
-          >
-        </div>
+        <span class="text-2xl sm:text-3xl self-start"
+          >Librería Universitaria</span
+        >
+        <img
+          src="/img/libreriaLogo.png"
+          alt="Librería Universitaria"
+          class="w-44 sm:w-56 object-contain"
+        />
+        <a
+          href="/projects/libreria-universitaria/"
+          class="self-end text-xl sm:text-2xl underline-offset-4 hover:underline transition"
+        >
+          conocer más
+        </a>
       </div>
+
+      <!-- Card 3 -->
       <div
-        class="flex flex-col justify-center items-center px-10 py-5 rounded-xl"
+        class="flex flex-col items-center p-6 sm:p-8 gap-6 rounded-2xl"
         style="background-color: var(--color-primary)"
       >
-        <div class="flex flex-col gap-6 justify-evenly items-center">
-          <span class="self-start text-3xl">PROSENE</span>
-          <img class="w-80" src="/img/proseneLogo.png" alt="" />
-          <a
-            class="self-end text-2xl decoration-0 cursor-pointer"
-            href="/projects/prosene/"
-            >conocer más</a
-          >
-        </div>
+        <span class="text-2xl sm:text-3xl self-start">PROSENE</span>
+        <img
+          src="/img/proseneLogo.png"
+          alt="PROSENE"
+          class="w-48 sm:w-60 object-contain"
+        />
+        <a
+          href="/projects/prosene/"
+          class="self-end text-xl sm:text-2xl underline-offset-4 hover:underline transition"
+        >
+          conocer más
+        </a>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup></script>
 
-<style></style>
+<style scoped>
+#projects {
+  scroll-margin-top: 5rem;
+}
+</style>
