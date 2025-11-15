@@ -72,6 +72,28 @@
           conocer más
         </a>
       </div>
+
+      <!-- Card 4 -->
+      <div
+        class="flex flex-col items-center p-6 sm:p-8 gap-6 rounded-2xl"
+        style="background-color: var(--color-primary)"
+      >
+        <span class="text-2xl sm:text-3xl self-start"
+          >Arquitectura Rental Cars</span
+        >
+        <img
+          src="/img/architecture.png"
+          alt="PROSENE"
+          class="w-48 sm:w-60 object-contain"
+          style="filter: brightness(0) invert(1)"
+        />
+        <a
+          href="/projects/rentalcars/"
+          class="self-end text-xl sm:text-2xl underline-offset-4 hover:underline transition"
+        >
+          conocer más
+        </a>
+      </div>
     </div>
   </section>
 </template>
