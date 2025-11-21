@@ -75,7 +75,7 @@
       <!-- Desktop Absolute Image -->
       <div
         class="hidden md:flex h-full absolute right-0 top-0 -z-10 w-1/3 justify-center items-center"
-        style="background-color: var(--color-secondary)"
+        style="background-color: var(--color-primary)"
       >
         <img class="w-95" src="/img/architecture.png" alt="architecture Logo" />
       </div>
@@ -83,7 +83,7 @@
       <!-- Mobile Image -->
       <div
         class="flex md:hidden justify-center items-center w-full mt-10 rounded-xl py-10"
-        style="background-color: var(--color-secondary)"
+        style="background-color: var(--color-primary)"
       >
         <img
           class="w-2/3 sm:w-3/4"
