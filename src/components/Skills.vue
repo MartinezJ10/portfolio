@@ -183,7 +183,7 @@
       <!-- Colaborative -->
       <div class="flex flex-col gap-6">
         <h2 class="text-2xl sm:text-3xl font-semibold text-center lg:text-left">
-          Entornos Colaborativo
+          Entornos Colaborativos
         </h2>
         <div
           class="flex flex-col gap-6 p-6 sm:p-8 rounded-2xl"
