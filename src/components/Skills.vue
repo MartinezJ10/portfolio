@@ -89,6 +89,14 @@
             />
             <span class="text-lg sm:text-xl">Express</span>
           </div>
+          <div class="flex items-center gap-4">
+            <img
+              class="w-10 sm:w-12 object-contain"
+              src="/img/dotnet.png"
+              alt=".NET"
+            />
+            <span class="text-lg sm:text-xl">.NET</span>
+          </div>
         </div>
       </div>
 
@@ -148,10 +156,10 @@
           <div class="flex items-center gap-4">
             <img
               class="w-10 sm:w-12 object-contain"
-              src="/img/sql.png"
-              alt="SQL"
+              src="/img/oracle.png"
+              alt="Oracle PL/SQL"
             />
-            <span class="text-lg sm:text-xl">SQL</span>
+            <span class="text-lg sm:text-xl">Oracle PL/SQL</span>
           </div>
           <div class="flex items-center gap-4">
             <img
@@ -168,6 +176,42 @@
               alt="Excel"
             />
             <span class="text-lg sm:text-xl">Excel</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Colaborative -->
+      <div class="flex flex-col gap-6">
+        <h2 class="text-2xl sm:text-3xl font-semibold text-center lg:text-left">
+          Entornos Colaborativo
+        </h2>
+        <div
+          class="flex flex-col gap-6 p-6 sm:p-8 rounded-2xl"
+          :style="{ backgroundColor: 'rgba(var(--color-primary-rgb), 0.10)' }"
+        >
+          <div class="flex items-center gap-4">
+            <img
+              class="w-10 sm:w-12 object-contain"
+              src="/img/git.png"
+              alt="Git"
+            />
+            <span class="text-lg sm:text-xl">Git</span>
+          </div>
+          <div class="flex items-center gap-4">
+            <img
+              class="w-10 sm:w-12 object-contain"
+              src="/img/azure.png"
+              alt="Azure DevOps"
+            />
+            <span class="text-lg sm:text-xl">Azure DevOps</span>
+          </div>
+          <div class="flex items-center gap-4">
+            <img
+              class="w-10 sm:w-12 object-contain"
+              src="/img/jira.png"
+              alt="Jira"
+            />
+            <span class="text-lg sm:text-xl">Jira</span>
           </div>
         </div>
       </div>
