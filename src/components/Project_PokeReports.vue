@@ -139,7 +139,7 @@
       >
         <img
           class="w-2/3 sm:w-3/4"
-          src="/img/libreriaLogo.png"
+          src="/img/pokereports.png"
           alt="Librería Logo"
         />
       </div>

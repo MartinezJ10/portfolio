@@ -87,8 +87,8 @@
       >
         <img
           class="w-2/3 sm:w-3/4"
-          src="/img/proseneLogo.png"
-          alt="PROSENE Logo"
+          src="/img/architecture.png"
+          alt="architecture Logo"
         />
       </div>
     </div>
