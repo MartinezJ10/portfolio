@@ -69,15 +69,6 @@
           >
             <h3 class="text-2xl font-semibold mb-2">Echale un Vistazo</h3>
 
-            <a
-              class="link-item"
-              href="https://ui-pokequeueproject-dev.azurewebsites.net/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ¡Prueba la App!
-            </a>
-
             <p class="text-lg font-medium mt-4">Revisa las Configuraciones</p>
 
             <a
